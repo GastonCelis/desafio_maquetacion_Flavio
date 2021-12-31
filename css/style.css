@@ -70,12 +70,13 @@
 }
 
 .number{
-    background-color: red;
+    background-color: rgb(218, 31, 31);
     border-radius: 50%;
-    font-size: 30px;
+    font-size: 20px;
     font-weight: bold;
-    padding: 0px 7px 3px 7px;
+    padding: 0px 5px 3px 5px;
     color: white;
+    transform: translateY(-5px);
 }
 
 .navbar header{
@@ -83,9 +84,14 @@
 }
 
 .navbar header h1{
-    margin-left: 0.5em;
-    color: red;
-    font-family: 'Yeseva One', cursive;
+    margin-left: 0.3em;
+    color: rgb(218, 31, 31);
+    font-family: 'Domine', serif;
+    font-weight: bold;
+}
+
+.confidencial{
+    font-size: 33px;
 }
 
 .navbar-options p{
